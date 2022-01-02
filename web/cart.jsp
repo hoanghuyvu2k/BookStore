@@ -23,7 +23,7 @@
         <%@include file="header.jsp" %>
         <div class="center_content">
             <div class="title cart_title">My cart</div>
-            <table class="cart_table">
+            <table class="cart_table table table-striped">
                 <tr style="height: 100px; font-size: 20px;">
                     <th style="width:20%">Name</th>
                     <th>Quantity</th>

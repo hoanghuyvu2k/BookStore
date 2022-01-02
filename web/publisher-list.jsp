@@ -1,11 +1,6 @@
 <%@page import="model.Publisher"%>
 <%@page import="model.Author"%>
-<%@page import="dao.ShoesDAO"%>
-<%@page import="model.Shoes"%>
-<%@page import="dao.ClothesDAO"%>
-<%@page import="model.Clothes"%>
-<%@page import="dao.ElectronicsDAO"%>
-<%@page import="model.Electronics"%>
+
 <%@page import="dao.BookDAO"%>
 <%@page import="model.Book"%>
 <%@page import="java.util.ArrayList"%>

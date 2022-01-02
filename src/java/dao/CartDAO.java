@@ -16,7 +16,6 @@ import model.Cart;
 import model.Customer;
 import model.Payment;
 import model.Shipment;
-import model.Shoes;
 
 public class CartDAO {
 	private Connection connection;

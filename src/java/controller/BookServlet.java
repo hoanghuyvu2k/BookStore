@@ -65,7 +65,7 @@ public class BookServlet extends HttpServlet {
         int itemId = -1;
         if (request.getParameter("getItemId") != null) {
             itemId = Integer.parseInt(request.getParameter("bookId"));
-            RequestDispatcher rs = request.getRequestDispatcher("books-admin-change.jsp");
+            RequestDispatcher rs = request.getRequestDispatcher("book-admin-change.jsp");
             rs.forward(request, response);
             return;
         }

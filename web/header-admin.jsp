@@ -1,7 +1,7 @@
 <%@page import="model.Account"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="bootstrap.min.css">
-<div class="header">
+<div class="header navbar navbar-light"  style="background-color: #e3f2fd;">
     <div id="logo">
         <a href="index.jsp">Ecommerce admin</a>
     </div>
@@ -10,9 +10,6 @@
             <li><a href="books-list.jsp">Books</a></li>
             <li><a href="author-list.jsp">Author</a></li>
             <li><a href="publisher-list.jsp">Publisher</a></li>
-            <li><a href="electronics-list.jsp">Electronics</a></li>
-            <li><a href="clothes-list.jsp">Clothes</a></li>
-            <li><a href="shoes-list.jsp">Shoes</a></li>
             <li><a href="order-list.jsp">Orders</a></li>
                 <%Account account = (Account) session.getAttribute("USER");
                     if (account != null) {

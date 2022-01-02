@@ -1,7 +1,7 @@
 <%@page import="model.Account"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="bootstrap.min.css">
-<div class="header">
+<div class="header navbar navbar-light" style="background-color: #e3f2fd;">
     <div id="logo">
         <a href="index.jsp">Ecommerce</a>
     </div>
